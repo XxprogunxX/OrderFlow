@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OrderFlow ayuda a pequenos negocios a organizar pedidos de WhatsApp y Facebook en un solo lugar."
+    />
+    <title>OrderFlow | Organiza tus pedidos de WhatsApp</title>
+
+    <!-- Tipografia principal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de OrderFlow">
+          <span class="brand-dot"></span>
+          OrderFlow
+        </a>
+        <nav class="topnav" aria-label="Navegacion principal">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <!-- HERO -->
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Gestion de pedidos para pequenos negocios</p>
+            <h1>Organiza tus pedidos de WhatsApp sin perder clientes</h1>
+            <p class="hero-text">
+              Centraliza pedidos, clientes y mensajes en un solo lugar para responder mas
+              rapido y vender mejor.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd_yOVEPCk9ncXJ24AxDaQsUf_C_0OX1bIEssm6VWZK1uI6HQ/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Quiero probar OrderFlow</a
+            >
+          </div>
+
+          <!-- Mockup simple de dashboard -->
+          <div class="dashboard-card reveal" aria-label="Mockup de dashboard de pedidos">
+            <div class="dash-header">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <p>Panel de Pedidos</p>
+            </div>
+            <div class="dash-body">
+              <aside class="dash-sidebar">
+                <p class="active">Pedidos</p>
+                <p>Clientes</p>
+                <p>Etiquetas</p>
+                <p>Reportes</p>
+              </aside>
+              <div class="dash-main">
+                <div class="order-row">
+                  <span>#2481</span>
+                  <span class="tag pending">Pendiente</span>
+                  <span>Maria G.</span>
+                </div>
+                <div class="order-row">
+                  <span>#2482</span>
+                  <span class="tag progress">En proceso</span>
+                  <span>Tienda Nova</span>
+                </div>
+                <div class="order-row">
+                  <span>#2483</span>
+                  <span class="tag done">Entregado</span>
+                  <span>Jose R.</span>
+                </div>
+                <div class="order-row">
+                  <span>#2484</span>
+                  <span class="tag pending">Pendiente</span>
+                  <span>Luisa M.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROBLEMA -->
+      <section class="section section-muted" id="problema">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>¿Pierdes pedidos entre tantos mensajes?</h2>
+            <p>
+              Muchos pequenos negocios que venden mediante WhatsApp y Facebook pierden
+              mensajes, olvidan pedidos y tardan demasiado en responder a sus clientes.
+            </p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="card reveal">
+              <div class="icon" aria-hidden="true">📦</div>
+              <h3>Pedidos olvidados</h3>
+            </article>
+            <article class="card reveal">
+              <div class="icon" aria-hidden="true">💬</div>
+              <h3>Clientes sin respuesta</h3>
+            </article>
+            <article class="card reveal">
+              <div class="icon" aria-hidden="true">🧩</div>
+              <h3>Mensajes desordenados</h3>
+            </article>
+            <article class="card reveal">
+              <div class="icon" aria-hidden="true">⏳</div>
+              <h3>Tiempo perdido</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOLUCION -->
+      <section class="section" id="solucion">
+        <div class="container solution-grid">
+          <div class="section-heading reveal">
+            <h2>Organiza tus pedidos desde un solo lugar</h2>
+            <p>
+              OrderFlow ayuda a registrar pedidos, visualizar clientes y dar seguimiento
+              facilmente desde una sola plataforma.
+            </p>
+          </div>
+
+          <div class="solution-panel reveal" aria-label="Vista de dashboard de OrderFlow">
+            <div class="panel-col">
+              <p class="panel-title">Lista de pedidos</p>
+              <ul>
+                <li>#2501 - Refill x3</li>
+                <li>#2502 - Combo promocion</li>
+                <li>#2503 - Entrega local</li>
+              </ul>
+            </div>
+            <div class="panel-col">
+              <p class="panel-title">Estado del pedido</p>
+              <div class="pill-row">
+                <span class="pill">Nuevo</span>
+                <span class="pill">Confirmado</span>
+                <span class="pill">Entregado</span>
+              </div>
+              <p class="panel-title mt">Clientes</p>
+              <ul>
+                <li>Ana Perez</li>
+                <li>Market Sol</li>
+                <li>Diego Lima</li>
+              </ul>
+            </div>
+            <div class="panel-col">
+              <p class="panel-title">Etiquetas</p>
+              <div class="pill-row">
+                <span class="pill green">Urgente</span>
+                <span class="pill">Mayorista</span>
+                <span class="pill">Recurrente</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FLUJO -->
+      <section class="section section-muted" id="flujo">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Asi funciona</h2>
+          </div>
+
+          <div class="flow-wrap reveal" aria-label="Flujo de 3 pasos">
+            <div class="flow-step">
+              <div class="flow-icon">1</div>
+              <h3>Cliente envia mensaje</h3>
+            </div>
+            <div class="flow-line" aria-hidden="true"></div>
+            <div class="flow-step">
+              <div class="flow-icon">2</div>
+              <h3>Registras el pedido</h3>
+            </div>
+            <div class="flow-line" aria-hidden="true"></div>
+            <div class="flow-step">
+              <div class="flow-icon">3</div>
+              <h3>Das seguimiento facilmente</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFICIOS -->
+      <section class="section" id="beneficios">
+        <div class="container benefits-grid">
+          <div class="section-heading reveal">
+            <h2>Menos desorden, mas ventas</h2>
+          </div>
+          <ul class="benefits-list reveal" aria-label="Lista de beneficios de OrderFlow">
+            <li>Organiza pedidos facilmente</li>
+            <li>Reduce mensajes perdidos</li>
+            <li>Ahorra tiempo atendiendo</li>
+            <li>Mejora la atencion al cliente</li>
+            <li>Visualiza clientes rapidamente</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CTA FINAL -->
+      <section class="section cta" id="contacto">
+        <div class="container cta-box reveal">
+          <h2>¿Quieres probar OrderFlow?</h2>
+          <p>Dejanos tus datos y conoce como puede ayudarte.</p>
+          <a
+            class="btn btn-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd_yOVEPCk9ncXJ24AxDaQsUf_C_0OX1bIEssm6VWZK1uI6HQ/viewform?usp=publish-editor"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Probar ahora</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>OrderFlow © 2026</p>
+        <nav aria-label="Enlaces del pie de pagina">
+          <a href="#inicio">Inicio</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
